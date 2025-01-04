@@ -1,0 +1,428 @@
+ #banner {
+     width: 100%;
+     height: 90vh;
+     /* background: url('../source/image/banner_bgcolor.png'); */
+     /* background-size: cover; */
+     background-color: var(--secondary-color);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ #banner .wrapper {
+     height: 80%;
+     /* background-color: var(--secondary-color); */
+     display: flex;
+     gap: 20px;
+ }
+
+ #banner .wrapper .banner_content {
+     width: 50%;
+     height: 100%;
+     /* background-color: aquamarine; */
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     justify-content: center;
+ }
+
+ #banner .wrapper .banner_content h1 {
+     width: 50%;
+     font-size: var(--fs-48);
+ }
+
+ #banner .wrapper .banner_content p {
+     width: 80%;
+     font-size: var(--fs-18);
+ }
+
+ #banner .wrapper .banner_button {
+     display: flex;
+     gap: 20px;
+ }
+
+ #banner .wrapper .banner_image {
+     width: 50%;
+     height: 100%;
+     /* background-color: blueviolet; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ #banner .wrapper .banner_image img {
+     width: 100%;
+     height: 80%;
+ }
+
+ /* banner section ends */
+
+
+
+ /* service section starts*/
+
+ #services_section {
+     width: 100%;
+     height: 100vh;
+     /* background-color: aqua; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ #services_section .wrapper {
+     height: 100%;
+     /* background-color: purple; */
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+
+ }
+
+ #services_section .wrapper .our_services {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ /* service left content */
+ #services_section .wrapper .our_services .left_ser_content {
+
+     width: 50%;
+     height: auto;
+     /* background-color: white; */
+
+ }
+
+ #services_section .wrapper .our_services .left_ser_content p {
+     font-size: var(--fs-24);
+ }
+
+ #services_section .wrapper .our_services .left_ser_content h1 {
+     font-size: var(--fs-50);
+ }
+
+ /* service right button */
+
+ #services_section .wrapper .our_services .right_ser_content {
+
+     width: 50%;
+     height: auto;
+     /* background-color: wheat; */
+     display: flex;
+     justify-content: end;
+
+ }
+
+ /* service cards */
+
+ #services_section .wrapper .service_card {
+     width: 100%;
+     height: 70%;
+     /* background-color: gray; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 50px
+ }
+
+ #services_section .wrapper .service_card .cards {
+     width: 100%;
+     height: 100%;
+     background-color: var(--secondary-color);
+     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: start;
+     gap: 20px;
+     padding: 20px;
+
+ }
+
+ #services_section .wrapper .service_card .first_card_row,
+ #services_section .wrapper .service_card .second_card_row {
+     display: flex;
+     gap: 20px;
+ }
+
+ #services_section .wrapper .service_card .first_card_row .cards h1,
+ #services_section .wrapper .service_card .second_card_row .cards h1{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-medium);
+ }
+ #services_section .wrapper .service_card .first_card_row .cards p,
+ #services_section .wrapper .service_card .second_card_row .cards p{
+    font-size: var(--fs-18);
+    font-weight: var(--fw-normal);
+ }
+
+ /* services section ends */
+
+
+ /* Anonymous reporting section starts */
+ #reporting_section{
+    width: 100%;
+    height: 100vh;
+    /* background: url('../source/image/background_color.png');
+    background-size: cover; */
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+#reporting_section .wrapper{
+    height: 80%;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px;
+}
+
+
+#reporting_section .wrapper .anonymous_left,
+#reporting_section .wrapper .anonymous_right{
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+
+#reporting_section .wrapper .anonymous_left img{
+    width: 90%;
+    height: 90%;
+}
+#reporting_section .wrapper .anonymous_right{
+    width: 50%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: start;
+}
+#reporting_section .wrapper .anonymous_right h1{
+    width: 30%;
+    font-size: var(--fs-48);
+}
+#reporting_section .wrapper .anonymous_right p{
+    width: 85%;
+    font-size: var(--fs-18);
+   
+}
+#reporting_section .wrapper .anonymous_right button{
+    font-size: var(--fs-18);
+}
+/* Anonymous reporting section ends */
+
+/* realtime_complain section starts */
+
+#realtime_section{
+    width: 100%;
+    height: 100vh;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#realtime_section .wrapper{
+    height: 80%;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px;
+}
+#realtime_section .wrapper .realtime_left,
+#realtime_section .wrapper .realtime_right{
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+
+#realtime_section .wrapper .realtime_right{
+    width: 50%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: start;
+}
+#realtime_section .wrapper .realtime_right h1{
+    width: 100%;
+    font-size: var(--fs-48);
+}
+#realtime_section .wrapper .realtime_right p{
+    width: 85%;
+    font-size: var(--fs-18);
+}
+#realtime_section .wrapper .realtime_right button{
+    /* width: 50%; */
+    font-size: var(--fs-18);
+}
+
+#realtime_section .wrapper .realtime_left img{
+    width: 100%;
+    height: 90%;
+}
+
+ /* Anonymous reporting section ends */
+
+ #statistics_section{
+    width: 100%;
+    height: 100vh;
+    /* background: url('../source/image/background_color.png');
+    background-size: cover; */
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ #statistics_section .wrapper{
+     height: 80%;
+     /* background-color: purple; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+     gap: 10px;
+    }
+    #statistics_section .wrapper .statistics_cards{
+        width: 90%;
+        height: 80%;
+        /* background-color: goldenrod; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    #statistics_section .wrapper .statistics_cards .workers{
+        width: 80%;
+        height: 70%;
+        background-color: var(--tertiary-color);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+       box-shadow: 0px 0px 0px rgb(10, 10, 10,0.5);
+}
+    #statistics_section .wrapper .statistics_cards .workers .millions{
+        width: 70%;
+        height: 50%;
+        border-radius: 100%;
+        background-color: var(--pri_two-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #statistics_section .wrapper .statistics_cards .workers .millions p{
+        font-size: var(--fs-18);
+       
+    }
+    #statistics_section .wrapper .statistics_cards .workers .millions_content{
+        width: 90%;
+        display: flex;
+        flex-direction: column;justify-content: center;
+        align-items: center;
+    }
+    #statistics_section .wrapper .statistics_cards .workers .millions_content p{
+        font-size: var(--fs-16);
+        text-align: center;
+        
+    }
+
+    /* Statistics of workers ends */
+
+    /* know your rights starts */
+
+    #rights_section{
+        width: 100%;
+        height: 100vh;
+        /* background-color: violet; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #rights_section .wrapper{
+        height: 80%;
+        /* background-color: purple; */
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        gap: 40px;
+    }
+    
+    #rights_section .wrapper .left_rights{
+        width: 50%;
+        height: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #rights_section .wrapper .left_rights img{
+    width: 70%;
+    height: 80%;
+    }
+    
+    #rights_section .wrapper .right_rights{
+        width: 50%;
+        height: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 30px;
+    }
+    #rights_section .wrapper .right_rights .right_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 80%;
+    }
+    #rights_section .wrapper .right_rights .right_content h6{
+        font-size: var(--fs-24);
+    }
+    #rights_section .wrapper .right_rights .right_content h2{
+        font-size: var(--fs-48);
+
+    }
+    #rights_section .wrapper .right_rights .cards{
+        width: 80%;
+        height: 40%;
+        background-color: var(--secondary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 10px;
+        border-radius: 20px;
+        padding: 20px;
+}
+    #rights_section .wrapper .right_rights .cards h5{
+        font-size: var(--fs-24);
+    }
+    #rights_section .wrapper .right_rights .cards p{
+        width: 80%;
+        font-size: var(--fs-16);
+    }
+
+
+@media only screen and (max-width:1243px){
+
+}

@@ -1,0 +1,218 @@
+/* banner starts */
+#banner_heading{
+    width: 100%;
+    height: 40vh;
+    /* background-color: bisque; */
+    background: url('../source/image/service_bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner_heading .wrapper{
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#banner_heading .wrapper .service_heading p{
+    font-size: var(--fs-24);
+}
+#banner_heading .wrapper .service_heading h1{
+    font-size: var(--fs-50);
+}
+
+/* banner ends */
+
+/* 24/7 virtual  starts */
+
+#virtual{
+    width: 100%;
+    height: 100vh;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#virtual .wrapper{
+    height: 100%;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    
+}
+
+/* virtual content */
+#virtual .wrapper .virtual_content{
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    
+}
+#virtual .wrapper .virtual_content .list{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+
+}
+#virtual .wrapper .virtual_content  h1{
+font-size: var(--fs-40);
+}
+#virtual .wrapper .virtual_content .list p,ul li{
+font-size: var(--fs-20);
+}
+#virtual .wrapper .virtual_content .list ul{
+padding: 20px;
+}
+
+/* virtual image */
+
+
+#virtual .wrapper .virtual_image{
+    width: 50%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#virtual .wrapper .virtual_image img{
+    width: 80%;
+    height: 80%;
+}
+
+/* 24/7 virtual  ends */
+
+
+/* feedback starts */
+
+#feedback_section{
+    width: 100%;
+    height: 100vh;
+    /* background-color: pink; */
+    background: url('../source/image/background_color.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feedback_section .wrapper{
+    height: 70%;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    
+}
+
+/* feedback left */
+
+#feedback_section .wrapper .feedback_left{
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+
+#feedback_section .wrapper .feedback_left img{
+    width: 60%;
+    height: 80%;
+}
+
+/* feedback right */
+
+
+#feedback_section .wrapper .feedback_right{
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    
+}
+#feedback_section .wrapper .feedback_right .list{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: antiquewhite; */
+}
+#feedback_section .wrapper .feedback_right .list p,ul li{
+    font-size: var(--fs-20);
+}
+#feedback_section .wrapper .feedback_right .list ul{
+    padding: 20px;
+}
+
+/* feedback ends */
+
+/* complaint categories starts */
+
+#complaint_categories{
+    width: 100%;
+    height: 80vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#complaint_categories .wrapper{
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#complaint_categories .wrapper .complain_heading{
+    width: 80%;
+    height: 30%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#complaint_categories .wrapper .complain_heading p {
+    width: 70%;
+}
+#complaint_categories .wrapper .complain_card{
+    width: 80%;
+    height: 30%;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+#complaint_categories .wrapper .complain_card .card{
+    width: 30%;
+    height: 50%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
