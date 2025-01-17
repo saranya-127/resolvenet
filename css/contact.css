@@ -1,0 +1,160 @@
+#banner{
+    width: 100%;
+    height: 90vh;
+    background-color: lightblue;
+    background: url('../source/image/contact_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .wrapper{
+    height: 100vh;
+    /* background-color: lightseagreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--tertiary-color);
+}
+#banner .wrapper h1{
+  font-size:100px;
+ 
+}
+#banner .wrapper p{
+  font-size:var(--fs-30);
+}
+
+/* banner ends */
+
+/* information starts */
+#information{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#information .wrapper{
+    
+    height: 90vh;
+    /* background-color: rgb(72, 72, 14); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#information .wrapper .heading{
+    width: 60%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 100px;
+   
+}
+#information .wrapper .heading .heading_one h1{
+    font-size: var(--fs-40);
+    color: var(--primary-color);
+}
+#information .wrapper .heading .heading_two{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#information .wrapper .heading .heading_two h1{
+  font-size: var(--fs-24);
+}
+#information .wrapper .heading .heading_two p{
+  font-size: var(--fs-14);
+}
+
+#information .wrapper .heading .contact_form form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255, 127, 236); */
+    gap: 10px;
+}
+#information .wrapper .heading .contact_form form .contact{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36, 39, 38);
+
+}
+
+#information .wrapper .heading .contact-content{
+    width: 100%;
+    height: 100%;   
+    /* background-color: rgb(201, 218, 218); */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+#information .wrapper .heading .contact-content form{
+    width: 100%;
+    /* height: 100%;    */
+    /* background-color: rgb(16, 81, 81); */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#information .wrapper .heading .contact-content form .placeholder{
+    width: 90%;
+    height: 40px;   
+    border: 1px solid black;
+    /* background-color: aqua; */
+    
+}
+#information .wrapper .heading .contact-content form .text{
+    width: 90%;
+    height: 90px;   
+    border: 1px solid black;
+    /* background-color: rgb(16, 41, 41); */
+    
+}
+/* information ends */
+
+/* thrid container */
+.thrid_container{
+    width: 95%;
+    height: 50%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+.thrid_container .card{
+    width: 50%;
+    height: 40%;
+    
+    border: 1px solid var(--primary-color);
+   
+    border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   padding: 15px;
+}
+.thrid_container .card h1{
+    font-size: var(--fs-18);
+}
+.thrid_container .card p{
+    font-size: var(--fs-14);
+}

@@ -1,0 +1,303 @@
+/* banner starts */
+#banner_heading{
+    width: 100%;
+    height: 40vh;
+    background-color: var(--secondary-color);
+    /* background: url('../source/image/service_bg.png');
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner_heading .wrapper{
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#banner_heading .wrapper .service_heading p{
+    font-size: var(--fs-24);
+}
+#banner_heading .wrapper .service_heading h1{
+    font-size: var(--fs-50);
+}
+
+/* banner ends */
+
+
+/* hiring start */
+#hiring{
+    width: 100%;
+    height: 80vh;
+    /* background-color: var(--secondary-color); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#hiring .wrapper{
+    height: 70%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+
+
+#hiring .wrapper .hiring_container{
+    width: 100%;
+    height: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    /* gap: 40px; */
+   
+}
+#hiring .wrapper .hiring_container .left_container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hiring .wrapper .hiring_container .left_container img{
+    width: 70%;
+    height: 100%;
+}
+
+#hiring .wrapper .hiring_container .right_container{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    /* background-color: aqua; */
+}
+
+#hiring .wrapper .hiring_container .right_container .para{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* hiring ends */
+
+/*  Discrimination and Unpaid Wages/Wage & Hour Problems starts */
+#Discrimination_unpaid{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Discrimination_unpaid .wrapper{
+   
+    height: 80vh;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#Discrimination_unpaid .wrapper .Discrimination, 
+#Discrimination_unpaid .wrapper .unpaid{
+   width: 50%;
+   height: 100%;
+   /* background-color: rgb(101, 32, 42); */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30PX;
+    
+}
+
+#Discrimination_unpaid .wrapper .Discrimination .image_container,
+#Discrimination_unpaid .wrapper .unpaid .image_container{
+    width: 100%;
+    height: 50%;
+    /* background-color: lightskyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Discrimination_unpaid .wrapper .Discrimination .image_container img,
+#Discrimination_unpaid .wrapper .unpaid .image_container img{
+    width: 100%;
+    height: 100%;
+    /* background-color: lightskyblue; */
+}
+#Discrimination_unpaid .wrapper .Discrimination .content_container,
+#Discrimination_unpaid .wrapper .unpaid .content_container{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: lightskyblue; */
+}
+
+/*  Discrimination and Unpaid Wages/Wage & Hour Problems ends */
+
+/* Harassment & Other Workplace Problems starts  */
+#harassment{
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#harassment .wrapper{
+    height: 70%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+#harassment .wrapper .hars{
+   width: 100%;
+   height: 100%;
+   /* background-color: rgb(101, 32, 42); */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30PX;
+    
+}
+#harassment .wrapper .hars .image_container{
+    width: 100%;
+    height: 100%;
+    /* background-color: lightskyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#harassment .wrapper .hars .image_container img{
+    width: 60%;
+    height: auto;
+    /* background-color: lightskyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#harassment .wrapper .hars .content_container {
+    width: 75%;
+    height: 100%;
+    /* background-color: lightskyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+#harassment .wrapper .hars .content_container h1{
+    font-size: var(--fs-30);
+    text-align: center;
+    
+}
+#harassment .wrapper .hars .content_container p{
+    font-size: var(--fs-18);
+    text-align: center;
+    
+}
+/* Harassment & Other Workplace Problems ends  */
+
+/* Benefits  and Privacy starts */
+#bene{
+    width: 100%;
+    height: 60vh;
+    background-color: var(--secondary-color);
+    /* background: url('../source/image/service_bg.png');
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bene .wrapper{
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    
+    
+}
+
+/* benefits and privacy starts */
+#bene .wrapper .Benefits{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(68, 44, 14); */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+    
+}
+
+#bene .wrapper .Benefits .left_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(124, 78, 22); */
+}
+#bene .wrapper .Benefits .left_container img{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(124, 78, 22);
+}
+#bene .wrapper .Benefits .right_container{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(231, 135, 18); */
+  
+}
+#bene .wrapper .Benefits .right_container .para{
+    width: 75%;
+    height: 100%;
+    /* background-color: rgb(231, 135, 18); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+  
+}
+#bene .wrapper .Benefits .right_container .para h1{
+    font-size: var(--fs-30);
+  
+}
+#bene .wrapper .Benefits .right_container .para p{
+    font-size: var(--fs-18);
+  
+}
+/* benefits and privacy ends */
+
+
+
+   
+
+
+/* Benefits  and Privacy ends */
+

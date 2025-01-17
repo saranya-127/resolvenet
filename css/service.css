@@ -2,9 +2,9 @@
 #banner_heading{
     width: 100%;
     height: 40vh;
-    /* background-color: bisque; */
-    background: url('../source/image/service_bg.png');
-    background-size: cover;
+    background-color: var(--secondary-color);
+    /* background: url('../source/image/service_bg.png');
+    background-size: cover; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,9 +97,10 @@ padding: 20px;
 #feedback_section{
     width: 100%;
     height: 100vh;
-    /* background-color: pink; */
-    background: url('../source/image/background_color.png');
-    background-size: cover;
+   
+    background-color: var(--secondary-color);
+    /* background: url('../source/image/background_color.png');
+    background-size: cover; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +169,7 @@ padding: 20px;
 #complaint_categories{
     width: 100%;
     height: 80vh;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,7 +178,7 @@ padding: 20px;
 
 #complaint_categories .wrapper{
     height: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,7 +188,7 @@ padding: 20px;
 #complaint_categories .wrapper .complain_heading{
     width: 80%;
     height: 30%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,7 +201,7 @@ padding: 20px;
 #complaint_categories .wrapper .complain_card{
     width: 80%;
     height: 30%;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,9 +211,140 @@ padding: 20px;
 #complaint_categories .wrapper .complain_card .card{
     width: 30%;
     height: 50%;
-    background-color: lightgray;
+    background-color: var(--secondary-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
+
+/* complaint categories ends */
+
+/* Customise Automated Reminders As Required starts */
+#savetime{
+    width: 100%;
+    height: 80vh;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#savetime .wrapper{
+    height: 70%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+#savetime .wrapper .time_heading{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#savetime .wrapper .time_container{
+    width: 100%;
+    height: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    /* gap: 40px; */
+   
+}
+#savetime .wrapper .time_container .left_container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#savetime .wrapper .time_container .left_container img{
+    width: 70%;
+    height: auto;
+}
+
+#savetime .wrapper .time_container .right_container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+#savetime .wrapper .time_container .right_container .para{
+    width: 70%;
+
+}
+
+
+/* Customise Automated Reminders As Required ends */
+
+ /* FAQS SECTION STARTS */
+ #faqs_section{
+    width: 100%;
+    height: 90vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #faqs_section .wrapper{
+    height: 70%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 70px;
+ }
+
+ #faqs_section .wrapper .heading{
+    font-size: var(--fs-24);
+ }
+
+ #faqs_section .wrapper .faq_container{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(0, 51, 255); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+ #faqs_section .wrapper .faq_container .box{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+     gap: 20px;
+    /* background-color: lightgreen;  */
+    padding: 30px 0px 30px 0px;
+    border-bottom: 0.5px solid rgb(94, 94, 94);
+ }
+
+ #faqs_section .wrapper .faq_container .box p{
+    font-size: var(--fs-20);
+    width: 90%;
+ }
+
+ #faqs_section .wrapper .faq_container .box .downarrow{
+    font-size: var(--fs-24);
+ }
+
+ /* FAQS SECTION ENDS */

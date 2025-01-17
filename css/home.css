@@ -72,11 +72,12 @@
  }
 
  #services_section .wrapper {
-     height: 100%;
+     height: 80%;
      /* background-color: purple; */
      display: flex;
      flex-direction: column;
-     gap: 50px;
+     gap: 20px;
+     
 
  }
 
@@ -120,13 +121,13 @@
 
  #services_section .wrapper .service_card {
      width: 100%;
-     height: 70%;
+     height: 100%;
      /* background-color: gray; */
      display: flex;
      flex-direction: column;
-     justify-content: center;
+     justify-content: start;
      align-items: center;
-     gap: 50px
+     gap: 20px;
  }
 
  #services_section .wrapper .service_card .cards {
@@ -139,7 +140,7 @@
      justify-content: center;
      align-items: start;
      gap: 20px;
-     padding: 20px;
+     padding: 5px 20px 5px 20px;
 
  }
 
@@ -298,20 +299,22 @@
      gap: 10px;
     }
     #statistics_section .wrapper .statistics_cards{
-        width: 90%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
         /* background-color: goldenrod; */
         display: flex;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
         gap: 30px;
     }
     #statistics_section .wrapper .statistics_cards .workers{
-        width: 80%;
-        height: 70%;
+        width: 30%;
+        height: 80%;
         background-color: var(--tertiary-color);
         border-radius: 20px;
         display: flex;
+        
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -394,35 +397,78 @@
         justify-content: center;
         align-items: start;
         width: 80%;
+        height: 30%;
+        /* background-color: blue; */
+        
     }
     #rights_section .wrapper .right_rights .right_content h6{
-        font-size: var(--fs-24);
+        font-size: var(--fs-20);
     }
     #rights_section .wrapper .right_rights .right_content h2{
-        font-size: var(--fs-48);
+        font-size: var(--fs-40);
 
     }
     #rights_section .wrapper .right_rights .cards{
         width: 80%;
-        height: 40%;
+        height: 30%;
         background-color: var(--secondary-color);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        gap: 10px;
+        /* gap: 10px; */
         border-radius: 20px;
-        padding: 20px;
+        padding: 10px;
 }
     #rights_section .wrapper .right_rights .cards h5{
-        font-size: var(--fs-24);
+        font-size: var(--fs-18);
     }
     #rights_section .wrapper .right_rights .cards p{
         width: 80%;
-        font-size: var(--fs-16);
+        font-size: var(--fs-14);
     }
 
 
-@media only screen and (max-width:1243px){
 
+@media (max-width:950px){
+    #rights_section .wrapper .right_rights {
+        gap: 10px;
+    } 
+
+#statistics_section .wrapper .statistics_cards{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    
+}
+#statistics_section .wrapper .statistics_cards .workers{
+    /* display: none; */
+    width: 30%;
+    height: 70%;
+    /* gap: 20%; */
+    /* padding: 20px 20px; */
+  }
+#statistics_section .wrapper .statistics_cards .one{
+    display: none;
+
+  }
+}
+@media only screen and (max-width:900px){
+    #services_section {
+        width: 100%;
+        height: 110vh;
+        
+    }
+   
+   
+}
+@media only screen and (max-width:800px){
+    #services_section {
+        width: 100%;
+        /* height: 180vh; */
+    }
+    #rights_section .wrapper .right_rights {
+        gap: 20px;
+    } 
+   
 }
