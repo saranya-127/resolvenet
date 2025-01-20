@@ -292,12 +292,153 @@
     font-size: var(--fs-18);
   
 }
-/* benefits and privacy ends */
+
+/* benefits end */
+
+/* privacy starts */
+#bene_privacy{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    /* background: url('../source/image/service_bg.png');
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bene_privacy .wrapper{
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    
+    
+}
+#bene_privacy .wrapper .Benefits{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(68, 44, 14); */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+    
+}
+
+#bene_privacy .wrapper .Benefits .left_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(124, 78, 22); */
+}
+#bene_privacy .wrapper .Benefits .left_container img{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(124, 78, 22);
+}
+#bene_privacy .wrapper .Benefits .right_container{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(231, 135, 18); */
+  
+}
+#bene_privacy .wrapper .Benefits .right_container .para{
+    width: 75%;
+    height: 100%;
+    /* background-color: rgb(231, 135, 18); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+  
+}
+#bene_privacy .wrapper .Benefits .right_container .para h1{
+    font-size: var(--fs-30);
+  
+}
+#bene_privacy .wrapper .Benefits .right_container .para p{
+    font-size: var(--fs-18);
+  
+}
+@media only screen and (max-width: 865px) {
+    #bene .wrapper .Benefits .right_container .para {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    #banner_heading .wrapper .service_heading h1 {
+        font-size: var(--fs-30);
+    }
+    #banner_heading .wrapper .service_heading p {
+        font-size: var(--fs-18);
+    }
+    #hiring .wrapper .hiring_container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    #hiring .wrapper .hiring_container .right_container {
+    width: 90%;
+    }
+    #hiring .wrapper .hiring_container .right_container .para {
+width: 100%;
+text-align: center;
+    }
+    #Discrimination_unpaid {
+    height: 110vh;
+    }
+    #Discrimination_unpaid .wrapper{
+        flex-direction: column;
+    }
+    #Discrimination_unpaid .wrapper .Discrimination, 
+    #Discrimination_unpaid .wrapper .unpaid {
+        width: 80%;
+        gap: 40px;
+    }
+    #Discrimination_unpaid .wrapper .Discrimination .content_container, 
+    #Discrimination_unpaid .wrapper .unpaid .content_container {
+        text-align: center;
+        font-size: var(--fs-12);
+    }
+
+    #harassment .wrapper .hars .content_container h1 {
+        font-size: var(--fs-20);
+        text-align: center;
+    }
+
+    #harassment .wrapper .hars .content_container p {
+        font-size: var(--fs-12);
+        text-align: center;
+    }
+    #bene{
+        height:  100vh;
+    }
+    #bene .wrapper .Benefits{
+        flex-direction: column;
+        gap: 30px;
+    }
+    #bene_privacy .wrapper .Benefits{
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    #bene_privacy .wrapper .Benefits .right_container .para {
+    width: 100%;
+    }
+    #bene_privacy .wrapper .Benefits .right_container .para h1, #bene .wrapper .Benefits .right_container .para h1{
+        font-size: 20px;
+    }
+    #bene_privacy .wrapper .Benefits .right_container .para h1, #bene .wrapper .Benefits .right_container .para p{
+        font-size: 16px;
+    }
+}
 
 
-
-   
-
-
-/* Benefits  and Privacy ends */
 

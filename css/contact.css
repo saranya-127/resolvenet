@@ -20,10 +20,12 @@
 }
 #banner .wrapper h1{
   font-size:100px;
+  text-align: center;
  
 }
 #banner .wrapper p{
   font-size:var(--fs-30);
+  text-align: center;
 }
 
 /* banner ends */
@@ -154,7 +156,43 @@
 }
 .thrid_container .card h1{
     font-size: var(--fs-18);
+    
 }
 .thrid_container .card p{
     font-size: var(--fs-14);
+    
+}
+
+@media only screen and (max-width: 900px) {
+    #information .wrapper .heading {
+    width: 80%;
+    }
+    #banner .wrapper h1 {
+        font-size: var(--fs-40);
+        text-align: center;
+    }
+    #banner .wrapper p {
+        font-size: var(--fs-18);
+        text-align: center;
+    }
+     /* .thrid_container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .thrid_container .card{
+         width: 100%; 
+
+    }  */
+}
+@media only screen and (max-width: 700px) {
+ 
+     .thrid_container {
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+    }
+    .thrid_container .card{
+         width: 70%; 
+
+    } 
 }
