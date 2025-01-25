@@ -29,7 +29,7 @@
 /* hiring start */
 #hiring{
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     /* background-color: var(--secondary-color); */
     display: flex;
     justify-content: center;
@@ -188,7 +188,7 @@
     
 }
 #harassment .wrapper .hars .image_container img{
-    width: 60%;
+    width: 40%;
     height: auto;
     /* background-color: lightskyblue; */
     display: flex;
@@ -231,7 +231,7 @@
     align-items: center;
 }
 #bene .wrapper{
-    height: 100%;
+    height: 70%;
     /* background-color: violet; */
     display: flex;
     justify-content: center;
@@ -265,7 +265,8 @@
 #bene .wrapper .Benefits .left_container img{
     width: 100%;
     height: 80%;
-    background-color: rgb(124, 78, 22);
+    object-fit: contain;
+    /* background-color: rgb(124, 78, 22); */
 }
 #bene .wrapper .Benefits .right_container{
     width: 100%;
@@ -329,7 +330,7 @@
 }
 
 #bene_privacy .wrapper .Benefits .left_container{
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -339,7 +340,8 @@
 #bene_privacy .wrapper .Benefits .left_container img{
     width: 100%;
     height: 80%;
-    background-color: rgb(124, 78, 22);
+    object-fit: contain;
+    /* background-color: rgb(124, 78, 22); */
 }
 #bene_privacy .wrapper .Benefits .right_container{
     width: 100%;
@@ -372,11 +374,19 @@
     }
 }
 @media only screen and (max-width: 650px) {
+    
+    #banner_heading {
+        height:20vh ;
+    }
     #banner_heading .wrapper .service_heading h1 {
         font-size: var(--fs-30);
     }
     #banner_heading .wrapper .service_heading p {
         font-size: var(--fs-18);
+    }
+
+    #hiring {
+    height: 80vh;
     }
     #hiring .wrapper .hiring_container{
         flex-direction: column;
@@ -389,8 +399,11 @@
     width: 90%;
     }
     #hiring .wrapper .hiring_container .right_container .para {
-width: 100%;
-text-align: center;
+      width: 100%;
+       text-align: center;
+    }
+    #hiring .wrapper .hiring_container .right_container .para p{
+        font-size: var(--fs-12);
     }
     #Discrimination_unpaid {
     height: 110vh;
@@ -409,6 +422,11 @@ text-align: center;
         font-size: var(--fs-12);
     }
 
+    #harassment {
+        width: 100%;
+        height: 69vh;
+    }
+
     #harassment .wrapper .hars .content_container h1 {
         font-size: var(--fs-20);
         text-align: center;
@@ -419,24 +437,36 @@ text-align: center;
         text-align: center;
     }
     #bene{
-        height:  100vh;
+        height:  80vh;
     }
     #bene .wrapper .Benefits{
         flex-direction: column;
         gap: 30px;
     }
+
+    #bene_privacy {
+        height: 60vh;
+      
+    }
     #bene_privacy .wrapper .Benefits{
         flex-direction: column-reverse;
         gap: 0px;
     }
+  
+
     #bene_privacy .wrapper .Benefits .right_container .para {
     width: 100%;
+    }
+  
+    #bene_privacy .wrapper .Benefits .right_container .para p{
+        font-size: var(--fs-14);
+       
     }
     #bene_privacy .wrapper .Benefits .right_container .para h1, #bene .wrapper .Benefits .right_container .para h1{
         font-size: 20px;
     }
     #bene_privacy .wrapper .Benefits .right_container .para h1, #bene .wrapper .Benefits .right_container .para p{
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 

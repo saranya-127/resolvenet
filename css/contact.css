@@ -185,7 +185,17 @@
     }  */
 }
 @media only screen and (max-width: 700px) {
- 
+    #information{
+        height: auto;
+    }
+    #information .wrapper{
+        height: auto;
+        padding: 20px 0px;
+    }
+    #information .wrapper .heading{
+        width: 100%;
+        padding: 0px;
+    }
      .thrid_container {
         width: 100%;
         flex-direction: column;

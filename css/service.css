@@ -77,8 +77,9 @@ padding: 20px;
 
 
 #virtual .wrapper .virtual_image{
-    width: 50%;
+    width: 100%;
     height: 100%;
+    
     /* background-color: burlywood; */
     display: flex;
     justify-content: center;
@@ -87,6 +88,7 @@ padding: 20px;
 #virtual .wrapper .virtual_image img{
     width: 80%;
     height: 80%;
+    object-fit: contain;
 }
 
 /* 24/7 virtual  ends */
@@ -391,7 +393,7 @@ padding: 20px;
     }
 
     #virtual .wrapper .virtual_content .list p, ul li {
-        font-size: var(--fs-16);
+        font-size: var(--fs-14);
     }
     #virtual .wrapper .virtual_content .list{
         justify-content: center;
@@ -416,10 +418,20 @@ padding: 20px;
     }
     #feedback_section .wrapper .feedback_right .list p, ul li{
         font-size: var(--fs-14);
+        
     }
-
+    #complaint_categories .wrapper .complain_heading p {
+        width: 100%;
+        font-size: var(--fs-14);
+    }
     #complaint_categories .wrapper .complain_card .card {
-    text-align: center;
+         text-align: center;
+         width: 100%;
+    }
+    #complaint_categories .wrapper .complain_card .card p{
+         text-align: center;
+         width: 100%;
+         font-size: var(--fs-10);
     }
     #savetime .wrapper .time_container{
         flex-direction: column;
@@ -432,15 +444,31 @@ padding: 20px;
         text-align: center;
     }
     #savetime .wrapper .time_container .right_container .para h1{
-font-size: var(--fs-20);
+      font-size: var(--fs-20);
+    }
+    #savetime .wrapper .time_container .right_container .para h1{
+      font-size: var(--fs-14);
     }
     #savetime .wrapper .time_heading {
         text-align: center;
     }
+
+    #faqs_section{
+        height: 60vh;
+    }
+    #faqs_section .wrapper .faq_container .box p{
+        font-size: var(--fs-12);
+    }
+    #faqs_section .wrapper .heading {
+        font-size: var(--fs-18);
+        text-align: center;
+    }
+   
     
 }
 
 @media (max-width:620px){
+
     #complaint_categories .wrapper .complain_card .card {
         text-align: center;
         font-size: var(--fs-10);
